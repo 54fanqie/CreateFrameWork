@@ -6,14 +6,42 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B1D3E42B205164E900F8F268 /* ShellProject */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1D3E42C205164E900F8F268 /* Build configuration list for PBXAggregateTarget "ShellProject" */;
+			buildPhases = (
+				B1D3E42F205164EE00F8F268 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ShellProject;
+			productName = ShellProject;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		B1D3E425205163FF00F8F268 /* CreateFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D3E423205163FF00F8F268 /* CreateFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D3E4322051650E00F8F268 /* ClassA.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D3E4302051650E00F8F268 /* ClassA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D3E4332051650E00F8F268 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D3E4312051650E00F8F268 /* ClassA.m */; };
+		B1D3E4362051651800F8F268 /* ClassB.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D3E4342051651800F8F268 /* ClassB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D3E4372051651800F8F268 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D3E4352051651800F8F268 /* ClassB.m */; };
+		B1D3E43A2051652100F8F268 /* ClassC.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D3E4382051652100F8F268 /* ClassC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D3E43B2051652100F8F268 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D3E4392051652100F8F268 /* ClassC.m */; };
+		B1D3E465205372B900F8F268 /* UIViewController+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D3E463205372B800F8F268 /* UIViewController+Swizzling.h */; };
+		B1D3E466205372B900F8F268 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D3E464205372B800F8F268 /* UIViewController+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1D3E420205163FF00F8F268 /* CreateFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreateFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D3E423205163FF00F8F268 /* CreateFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateFrameWork.h; sourceTree = "<group>"; };
 		B1D3E424205163FF00F8F268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D3E4302051650E00F8F268 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		B1D3E4312051650E00F8F268 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		B1D3E4342051651800F8F268 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		B1D3E4352051651800F8F268 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		B1D3E4382051652100F8F268 /* ClassC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
+		B1D3E4392051652100F8F268 /* ClassC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+		B1D3E463205372B800F8F268 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		B1D3E464205372B800F8F268 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +74,14 @@
 		B1D3E422205163FF00F8F268 /* CreateFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				B1D3E423205163FF00F8F268 /* CreateFrameWork.h */,
+				B1D3E4302051650E00F8F268 /* ClassA.h */,
+				B1D3E4312051650E00F8F268 /* ClassA.m */,
+				B1D3E4342051651800F8F268 /* ClassB.h */,
+				B1D3E4352051651800F8F268 /* ClassB.m */,
+				B1D3E4382051652100F8F268 /* ClassC.h */,
+				B1D3E4392051652100F8F268 /* ClassC.m */,
+				B1D3E463205372B800F8F268 /* UIViewController+Swizzling.h */,
+				B1D3E464205372B800F8F268 /* UIViewController+Swizzling.m */,
 				B1D3E424205163FF00F8F268 /* Info.plist */,
 			);
 			path = CreateFrameWork;
@@ -59,7 +94,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D3E425205163FF00F8F268 /* CreateFrameWork.h in Headers */,
+				B1D3E4322051650E00F8F268 /* ClassA.h in Headers */,
+				B1D3E4362051651800F8F268 /* ClassB.h in Headers */,
+				B1D3E43A2051652100F8F268 /* ClassC.h in Headers */,
+				B1D3E465205372B900F8F268 /* UIViewController+Swizzling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +135,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					B1D3E42B205164E900F8F268 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = B1D3E41A205163FF00F8F268 /* Build configuration list for PBXProject "CreateFrameWork" */;
@@ -112,6 +154,7 @@
 			projectRoot = "";
 			targets = (
 				B1D3E41F205163FF00F8F268 /* CreateFrameWork */,
+				B1D3E42B205164E900F8F268 /* ShellProject */,
 			);
 		};
 /* End PBXProject section */
@@ -126,11 +169,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1D3E42F205164EE00F8F268 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the finalframework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output tothe framework.\n# The following line create it in the rootfolder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after theframework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binaryfiles (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1D3E41B205163FF00F8F268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D3E466205372B900F8F268 /* UIViewController+Swizzling.m in Sources */,
+				B1D3E4332051650E00F8F268 /* ClassA.m in Sources */,
+				B1D3E4372051651800F8F268 /* ClassB.m in Sources */,
+				B1D3E43B2051652100F8F268 /* ClassC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +322,9 @@
 				INFOPLIST_FILE = CreateFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bw.daka.CreateFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -278,10 +344,28 @@
 				INFOPLIST_FILE = CreateFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bw.daka.CreateFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1D3E42D205164E900F8F268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1D3E42E205164E900F8F268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -302,6 +386,15 @@
 			buildConfigurations = (
 				B1D3E429205163FF00F8F268 /* Debug */,
 				B1D3E42A205163FF00F8F268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D3E42C205164E900F8F268 /* Build configuration list for PBXAggregateTarget "ShellProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D3E42D205164E900F8F268 /* Debug */,
+				B1D3E42E205164E900F8F268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

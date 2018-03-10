@@ -9,5 +9,7 @@
 #import "ClassB.h"
 
 @implementation ClassB
-
+-(NSInteger)compare:(NSInteger)a with:(NSInteger)b{
+    return (a > b)? a:b;
+}
 @end

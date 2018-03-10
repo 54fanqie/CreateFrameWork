@@ -1,15 +1,13 @@
 //
-//  ClassA.m
+//  ClassC.h
 //  CreateFrameWork
 //
 //  Created by 番茄 on 3/8/18.
 //  Copyright © 2018 fanqie. All rights reserved.
 //
 
-#import "ClassA.h"
+#import <Foundation/Foundation.h>
 
-@implementation ClassA
--(void)sayClass:(NSString*)message{
-    NSLog(@"%@",message);
-}
+@interface ClassC : NSObject
+
 @end
